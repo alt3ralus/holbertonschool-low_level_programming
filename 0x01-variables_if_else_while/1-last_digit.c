@@ -22,7 +22,7 @@ int main(void)
 	}
 	if (v > 5)
 	{
-		printf("Last digit of %d is %d greater than 5\n", n, v);
+		printf("Last digit of %d is %d and is greater than 5\n", n, v);
 	}
 	if (v < 6 && v != 0)
 	{
