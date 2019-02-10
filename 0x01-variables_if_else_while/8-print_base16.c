@@ -9,10 +9,10 @@
  **/
 int main(void)
 {
-	int x = 60;
+	int x = 48;
 	int y = 97;
 
-	while (x < 72)
+	while (x < 58)
 	{
 		putchar(x);
 		x++;
