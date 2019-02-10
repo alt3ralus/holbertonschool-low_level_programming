@@ -11,14 +11,14 @@ int main(void)
 {
 	int x = 48;
 	int y = 44;
+	int z = 32;
 
 	while (x <= 57)
 	{
 		putchar(x);
-
 		if( x < 57){
 			putchar(y);
-			putchar(' ');
+			putchar(z);
 		}
 		x++;
 	}
