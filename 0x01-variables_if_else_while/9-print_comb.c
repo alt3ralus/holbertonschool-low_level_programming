@@ -12,15 +12,16 @@ int main(void)
 	int x = 48;
 	int y = 44;
 
-	while (x <= 56)
+	while (x <= 57)
 	{
 		putchar(x);
-		putchar(32);
-		putchar(y);
+
+		if( x < 57){
+			putchar(y);
+			putchar(' ');
+		}
 		x++;
 	}
-	putchar(57);
-
 	putchar('\n');
 	return (0);
 }
