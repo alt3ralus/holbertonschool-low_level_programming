@@ -2,7 +2,7 @@
 
 /**
  * main - entry block
- * @void: sto cazzo
+ *
  * Return: Always 0 (Success)
  **/
 int main(void)
