@@ -1,6 +1,5 @@
-#ifndef holberton.h
-#define holberton.h
+#ifndef holberton
+#define holberton
 
-void _putchar();
-
+int _putchar(int c);
 #endif
