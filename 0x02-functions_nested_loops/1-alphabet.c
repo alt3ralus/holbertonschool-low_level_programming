@@ -1,14 +1,19 @@
-g#include "holberton.h"
+#include "holberton.h"
 
 /**
- * main - check the code for Holberton School students.
+ * print_alphabet - check the code for Holberton School students.
  *
  * Return: Always 0.
  */
-void print_alphabet(void)
+int print_alphabet(void)
 {
 	int x = 97;
-	int y = 122;
 
-    return (0);
+	while (x <= 122)
+	{
+	_putchar(x);
+	x++;
+	}
+	_putchar('\n');
+	return (0);
 }
