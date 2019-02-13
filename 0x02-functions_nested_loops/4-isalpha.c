@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- * _islower - check the code for Holberton School students.
+ * _isalpha - check the code for Holberton School students.
  * @c: check speling.
  *
  * Return: 1 for lowercase and upercase or 0 for otherwise.
