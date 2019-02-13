@@ -11,8 +11,8 @@ int print_alphabet(void)
 
 	while (x <= 122)
 	{
-	_putchar(x);
-	x++;
+		_putchar(x);
+		x++;
 	}
 	_putchar('\n');
 	return (0);
