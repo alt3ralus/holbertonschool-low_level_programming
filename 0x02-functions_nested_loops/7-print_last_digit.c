@@ -1,8 +1,9 @@
 #include "holberton.h"
 
 /**
- * print_last_digit
- * @x:value
+ * print_last_digit- main function
+ * @r:value
+ * Description - sto cazzo
  * Return: last digit
  */
 
