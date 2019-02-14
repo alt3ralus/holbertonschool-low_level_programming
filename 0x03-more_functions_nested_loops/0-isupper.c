@@ -1,12 +1,13 @@
 #include "holberton.h"
+
 /**
- *Holberton - Write a function that checks uppercase char.
- *Description: addesso non mi viene
- *Return: Return 1 if uppercase or 0 otherwise.
+ * _isupper - Description  adesso non mi viene
+ * @c: neanche mi viene adesso
+ * Return: Return 1 if uppercase or 0 otherwise.
  */
 int _isupper(int c)
 {
-	if  (c > 64 &&  c < 91 )
+	if  (c > 64 &&  c < 91)
 	{
 		return (1);
 	}
