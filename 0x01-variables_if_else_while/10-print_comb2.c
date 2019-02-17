@@ -5,7 +5,7 @@
  *
  * Return: Always 0 if succes
  */
-int main()
+int main(void)
 {
 	int x;
 	int y = 0;
@@ -22,5 +22,5 @@ int main()
 			putchar(' ');
 		}
 	}
-	return 0;
+	return (0);
 }
