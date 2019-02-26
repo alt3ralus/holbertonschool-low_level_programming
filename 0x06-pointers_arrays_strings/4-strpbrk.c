@@ -4,7 +4,7 @@
  * _strpbrk- Funt. that fills memory with a constant byte.
  * @s: char
  * @accept: char
- * Return: pointer.
+ * Return: pointer if position s equal position accept.
  */
 
 char *_strpbrk(char *s, char *accept)
