@@ -1,14 +1,21 @@
 #include "holberton.h"
 
 /**
- * _memset - Funt. that fills memory with a constant byte.
- * @s: char
- * @b: char
- * @n: int unsigned.
- * Return: pointer.
+ * print_chessboard  - A function that prints a chessboard..
+ * @a: pointer to a char
+ * Return: void.
  */
 
-char *_memset(char *s, char b, unsigned int n)
+void print_chessboard(char (*a)[8])
 {
+	int i, j;
 
+	for (i = 0; i < 8; i++)
+	{
+		for (j = 0; j < 8; j++)
+		{
+			_putchar(a[i][j]);
+		}
+		_putchar('\n');
+	}
 }
