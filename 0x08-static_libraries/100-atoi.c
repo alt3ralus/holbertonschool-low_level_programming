@@ -1,4 +1,4 @@
-#include "hoberton.h"
+#include "holberton.h"
 /**
  * _atoi - A function that convert a string to an integer.
  * @s: type char
@@ -6,3 +6,6 @@
  */
 
 int _atoi(char *s)
+{
+	return(*s);
+}
