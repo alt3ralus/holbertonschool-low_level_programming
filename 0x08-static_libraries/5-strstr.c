@@ -1,14 +1,10 @@
 #include "holberton.h"
 
 /**
- * _memset - Funt. that fills memory with a constant byte.
- * @s: char
- * @b: char
- * @n: int unsigned.
+ * _strstr - Funt. that fills memory with a constant byte.
+ * @haystack: char
+ * @needle: char
  * Return: pointer.
  */
 
-char *_memset(char *s, char b, unsigned int n)
-{
-
-}
+char *_strstr(char *haystack, char *needle);

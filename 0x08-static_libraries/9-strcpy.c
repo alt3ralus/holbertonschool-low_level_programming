@@ -1,12 +1,10 @@
 #include "holberton.h"
+
 /**
- * _strcpy  - A function that copies the string pointed to by src
- * @dest: variable char.
- * @src: type char.
- * Return: A char type.
+ * _strchr - Funt. that fills memory with a constant byte.
+ * @s: char
+ * @c: char
+ * Return: pointer.
  */
-char *_strcpy(char *dest, char *src)
-{
-	*dest;
-	*src;
-}
+
+char *_strncpy(char *dest, char *src, int n);
