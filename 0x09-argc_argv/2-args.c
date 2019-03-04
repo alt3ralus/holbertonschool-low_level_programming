@@ -1,4 +1,5 @@
 #include "holberton.h"
+
 /**
  * main - A main function
  * @argc: int type.
@@ -22,6 +23,5 @@ int main(int argc, char *argv[])
 			_putchar('\n');
 		}
 	}
-	_putchar('\n');
 	return (0);
 }
