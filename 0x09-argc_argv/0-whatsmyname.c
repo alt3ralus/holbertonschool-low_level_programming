@@ -2,10 +2,10 @@
 
 int main(int argc, char *argv[])
 {
-	if (argc > 1)
+	if (argc > 0)
 	{
 		int x;
-		char *str = argv[1];
+		char *str = argv[0];
 
 		for (x = 0; str[x] != '\0'; x++)
 		{
