@@ -10,9 +10,9 @@
 int main(int argc, char *argv[])
 {
 
-	if (argc  == 1)
+	if (argc  == 1 || argc == 2)
 	{
-		char i[]= "Error";
+		char i[] = "Error";
 		int x;
 
 		for (x = 0; i[x] != '\0'; x++)
