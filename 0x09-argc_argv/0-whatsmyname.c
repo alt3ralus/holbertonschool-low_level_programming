@@ -1,6 +1,6 @@
 #include "holberton.h"
 
-int main (int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	if (argc > 1)
 	{
@@ -13,5 +13,5 @@ int main (int argc, char *argv[])
 		}
 	}
 	_putchar('\n');
-	return(0);
+	return (0);
 }
