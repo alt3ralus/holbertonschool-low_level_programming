@@ -19,6 +19,7 @@ int main(int argc, char *argv[])
 			{
 				_putchar(str[x]);
 			}
+			_putchar('\n');
 		}
 	}
 	_putchar('\n');
