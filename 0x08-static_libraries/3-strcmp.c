@@ -2,8 +2,8 @@
 
 /**
  * _strcmp - Funt. that fills memory with a constant byte.
- * @s: char
- * @c: char
+ * @s1: char
+ * @c2: char
  * Return: pointer.
  */
 
