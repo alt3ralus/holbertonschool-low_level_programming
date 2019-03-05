@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main  - check the code for Holberton School students.
- *
- * Return: Always 0.
+ * print_square  - check the code for Holberton School students.
+ * @size: int type
+ * Return: void.
  */
 void print_square(int size)
 {
