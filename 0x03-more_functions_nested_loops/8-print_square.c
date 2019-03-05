@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "holberton.h"
 
 /**
  * print_square  - check the code for Holberton School students.
@@ -8,7 +8,6 @@
 void print_square(int size)
 {
 	int x, y;
-
 
 	for (x = 0; x < size; x++)
 	{
