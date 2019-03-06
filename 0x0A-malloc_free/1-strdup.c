@@ -14,7 +14,7 @@ char *_strdup(char *str)
 	int i, j;
 	char *cadena;
 
-	if (str == '\0')
+	if (str == NULL)
 	{
 		return (NULL);
 	}
