@@ -14,7 +14,7 @@ char *_strdup(char *str)
 	int i, j;
 	char *cadena;
 
-	if (str == NULL)
+	if (str == '\0')
 	{
 		return (NULL);
 	}
@@ -24,7 +24,7 @@ char *_strdup(char *str)
 
 	}
 	cadena = malloc((*str + 1) * sizeof(char));
-	if (cadena == NULL)
+	if (cadena == '\0')
 	{
 		return (NULL);
 	}
