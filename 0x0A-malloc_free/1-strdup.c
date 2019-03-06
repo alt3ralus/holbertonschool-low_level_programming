@@ -23,7 +23,10 @@ char *_strdup(char *str)
 
 
 		cadena = malloc((*str) * i);
-
+	if (cadena == NULL)
+	{
+		return (NULL);
+	}
 
 	for (j = 0; j < i  ; j++)
 	{
