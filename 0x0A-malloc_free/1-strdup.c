@@ -31,6 +31,8 @@ char *_strdup(char *str)
 	for (j = 0; j < i  ; j++)
 	{
 		cadena[j] = str[j];
+
 	}
+	cadena[i] = '\0';
 	return (cadena);
 }
