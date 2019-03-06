@@ -10,5 +10,24 @@
  */
 char *str_concat(char *s1, char *s2)
 {
+	int i, j;
+
+	char *cadena;
+
+	for (i = 0; s1[i] != '\0'; i++)
+	{
+
+	}
+	for (j = 0; s2[j] != '\0'; j++)
+	{
+
+	}
+
+	cadena = malloc((i + j) * sizeof(char));
+
+	if (cadena == NULL)
+	{
+		return(NULL);
+	}
 
 }
