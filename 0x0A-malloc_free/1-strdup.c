@@ -15,11 +15,14 @@ char *_strdup(char *str)
 	char *cadena;
 
 	if (str == NULL)
+	{
+		return (NULL);
+	}
 
 	for (i = 0; str[i] != '\0'; i++)
 
 
-	cadena = malloc((*str) * i);
+		cadena = malloc((*str) * i);
 
 
 	for (j = 0; j < i  ; j++)
