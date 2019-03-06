@@ -22,7 +22,7 @@ char *_strdup(char *str)
 	for (i = 0; str[i] != '\0'; i++)
 
 
-		cadena = malloc((*str) * i);
+		cadena = malloc((*str + 1) * i);
 	if (cadena == NULL)
 	{
 		return (NULL);
@@ -34,5 +34,6 @@ char *_strdup(char *str)
 
 	}
 	cadena[i] = '\0';
+
 	return (cadena);
 }
