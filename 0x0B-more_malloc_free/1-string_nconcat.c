@@ -18,6 +18,19 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	{}
 	for  (j = 0; s2[j] != '\0'; j++)
 	{}
-	cadena =  malloc(sizeof char i + n);
+
+
+	cadena =  malloc( i + n + 1);
+
+	for (i = 0; s1[1] != '\0'; i++)
+	{}
+	for (j = 0; s2[j] != '\0'; j++)
+	{}
+
+	s1[i] = s1[i];
+	s1[i] = s2[j];
+
+
+
 	return (s1);
 }
