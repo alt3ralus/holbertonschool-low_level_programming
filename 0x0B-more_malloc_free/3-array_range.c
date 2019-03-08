@@ -11,16 +11,22 @@
 int *array_range(int min, int max)
 {
 	int *cadena;
-	int i;
+	int i, j = 0;
 	int cantidad = (max - min) + 1;
 
+	if (min > max)
+		return (NULL);
 
-	cadena = malloc(sizeof(int) * (max - min) + 1);
+	cadena = malloc(sizeof(int) * cantidad);
 
-	for (i = 0; i <= cantidad; i++)
+	if (cadena == NULL)
+		return (NULL);
+
+	for (i = min; i <= max; i++)
 	{
-		cadena = i;
-	}
+		cadena[j] = i;
 
+		j++;
+	}
 	return (cadena);
 }
