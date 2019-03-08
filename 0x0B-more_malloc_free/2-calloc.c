@@ -23,7 +23,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	cadena = malloc(nmemb * size);
 	for (i = 0; i < size; i++)
 	{
-		cadena[i] = cadena[0];
+		cadena[i] = 0;
 	}
 	return (cadena);
 }
