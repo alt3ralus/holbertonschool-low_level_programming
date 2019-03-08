@@ -14,20 +14,16 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	char *cadena;
 	int i, j;
 
+
 	for (i = 0; s1[i] != '\0'; i++)
 	{}
 	for  (j = 0; s2[j] != '\0'; j++)
 	{}
 
-	cadena =  malloc( i + n + 1);
-
-	for (i = 0; s1[1] != '\0'; i++)
+	cadena =  malloc(i + n + 1);
+	if (cadena == NULL)
 	{
-		cadena[i] = s1[i];
-	}
-	for (j = 0; s2[j] <= n ; j++)
-	{
-		cadena[i] = s2[j];
+		return (NULL);
 	}
 
 	return (cadena);
