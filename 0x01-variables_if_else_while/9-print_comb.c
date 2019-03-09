@@ -14,7 +14,8 @@ int main(void)
 	while (x <= 57)
 	{
 		putchar(x);
-		if( x < 57){
+		if (x < 57)
+		{
 			putchar(y);
 			putchar(z);
 		}
