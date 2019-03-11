@@ -1,10 +1,10 @@
 #include <stdio.h>
-#include "holberton"
+#include "holberton.h"
 
 int main(void)
 {
 	printf("%s", __FILE__);
-	_putchar('\n');
+	putchar('\n');
 
 	return (0);
 }
