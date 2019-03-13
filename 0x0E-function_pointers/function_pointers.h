@@ -1,6 +1,6 @@
-#include <stdio.h>
 #ifndef _FUNCTION_POINTERS_
 #define _FUNCTION_POINTERS_
+#include <stdio.h>
 #define size_t int
 
 
