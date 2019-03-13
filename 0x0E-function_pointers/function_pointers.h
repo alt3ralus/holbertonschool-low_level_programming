@@ -1,7 +1,9 @@
 #ifndef _FUNCTION_POINTERS_
 #define _FUNCTION_POINTERS_
 #include <stdio.h>
-#define size_t int
+#include <stdlib.h>
+
+#define  size_t int
 
 
 void print_name(char *name, void (*f)(char *));
