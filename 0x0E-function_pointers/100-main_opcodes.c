@@ -7,4 +7,11 @@
  * Return: integer.
  *
  */
-int main(int arc, char **argv);
+int main(int arc, char **argv)
+{
+	if (argc != 2)
+	{
+		printf("Error\n");
+		return (1);
+	}
+}
