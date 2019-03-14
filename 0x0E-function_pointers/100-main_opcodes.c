@@ -5,4 +5,4 @@
  * Return: integer.
  *
  */
-int main (int arc, char **argv);
+int main(int arc, char **argv);
