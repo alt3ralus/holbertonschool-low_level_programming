@@ -11,14 +11,15 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 	unsigned int i;
 
 	va_list datos;
-
+	int digito = 0;
 	va_start(datos, n);
 
-	if (separator != NULL && n != 0)
+	if (separator != NULL)
 	{
 		for (i = 0; i < n; i++)
 		{
-			printf("%d", va_arg(datos, int));
+			digito = va_arg(datos, int);
+			printf("%d", digito);
 
 			if (i < n - 1)
 				printf("%s", separator);
