@@ -15,5 +15,5 @@ main:
     int 0x80
 
 section .data
-    string  db 'Hello, World!',10
+    string  db 'Hello, Holberton',10
     strlen equ $ -  string
