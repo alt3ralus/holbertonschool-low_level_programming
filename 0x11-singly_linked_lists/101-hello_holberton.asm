@@ -1,17 +1,15 @@
-section .text
-   global main
-
+extern	printf
+	section .data
+msg:	db "Hello, Holberton", 0
+fmt:	db "%s", 10, 0
+	section .text
+	global main
 main:
-    mov eax, 4
-    mov ebx, 1
-    mov ecx, string
-    mov edx, strlen
-    int 0x80
-
-    mov eax, 1
-    mov ebx, 0
-    int 0x80
-
-section .data
-    string  db 'Hello, Holberton',10
-    strlen equ $ -  string
+	push    rbp
+	mov	rdi,fmt
+	mov	rsi,msg
+	mov	rax,0
+	call    printf
+	pop	rbp
+	mov	rax,0
+	ret
