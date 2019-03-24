@@ -1,8 +1,8 @@
 #include "holberton.h"
 /**
- *
- *
- *
+ * print_lines - A function that prints a line n times.
+ * @n: Number of times.
+ * Return: Void.
  */
 
 
