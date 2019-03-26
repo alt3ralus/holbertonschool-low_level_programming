@@ -12,7 +12,6 @@ void free_listint(listint_t *head)
 
 	while (head != NULL)
 	{
-		printf("%i\n",(head->n));
 		nodo = head;
 		head = nodo->next;
 		free(nodo);
