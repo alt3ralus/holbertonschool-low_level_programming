@@ -1,10 +1,9 @@
 #include "lists.h"
 
 /**
- * add_nodeint - A function that adds a new node at the beginning of a
- * @n: Data
+ * free_kistint - A function that free the list.
  * @head: pointer to pointer to a struct list.
- * Return: the addres or new node.
+ * Return: void.
  */
 void free_listint(listint_t *head)
 {
