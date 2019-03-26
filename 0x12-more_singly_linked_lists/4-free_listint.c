@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * free_kistint - A function that free the list.
+ * free_listint - A function that free the list.
  * @head: pointer to pointer to a struct list.
  * Return: void.
  */
