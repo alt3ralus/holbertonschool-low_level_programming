@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * add_nodeint - A function that adds a new node at the beginning of a
+ * add_nodeint_end - A function that adds a new node at the beginning of a
  * @n: Data
  * @head: pointer to pointer to a struct list.
  * Return: the addres or new node.
@@ -16,6 +16,7 @@ listint_t *add_nodeint_end(listint_t **head, const int n)
 	if (nodo == NULL)
 		return (NULL);
 
+	nodo->next = NULL;
 	nodo->n = n;
 
 	temp = *head;
