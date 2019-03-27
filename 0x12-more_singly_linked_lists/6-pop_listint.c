@@ -12,7 +12,6 @@ int pop_listint(listint_t **head)
 
 	listint_t *nodo;
 
-
 	nodo = malloc(sizeof(listint_t));
 
 
@@ -25,7 +24,7 @@ int pop_listint(listint_t **head)
 
 	*head = nodo->next;
 
-	data = head->n;
+	data = nodo->n;
 
 	free(nodo);
 	return (data);
