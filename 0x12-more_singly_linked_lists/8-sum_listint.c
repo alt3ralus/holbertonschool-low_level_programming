@@ -8,12 +8,11 @@ int sum_listint(listint_t *head)
 	listint_t *nodo;
 
 
-
 	nodo = head;
 
 	while (nodo != NULL)
 	{
-		count++;
+		count = count + nodo->n ;
 		nodo = nodo->next;
 	}
 	return (count);
