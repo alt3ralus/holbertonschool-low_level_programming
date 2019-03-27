@@ -12,8 +12,6 @@ int pop_listint(listint_t **head)
 
 	listint_t *nodo;
 
-	nodo = malloc(sizeof(listint_t));
-
 
 	if (*head == NULL)
 	{
