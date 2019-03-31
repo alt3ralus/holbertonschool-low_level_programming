@@ -1,5 +1,4 @@
 #include "holberton.h"
-#include <stdio.h>
 /**
  * _pow  - a function that converts a binary to unsigned.
  * @a: int.
@@ -12,7 +11,7 @@ unsigned int _pow(unsigned int a, unsigned int b)
 
 	for (i = 1; i <= b; ++i)
 		r *= a;
-	for (i = 0; i > b;  --i)
+	for (i = 0; i > b; --i)
 		r /= a;
 
 	return (r);
