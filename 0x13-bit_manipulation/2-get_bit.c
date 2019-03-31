@@ -11,15 +11,18 @@
 
 int get_bit(unsigned long int n, unsigned int index)
 {
-	int bit, resultgi;
+	int bit, result;
 	int cadena[64];
 
 
 	if (n == 0)
 	{
 
-		return (-1);
+		return (0);
 	}
+
+	if (index > 63)
+		return (-1);
 
 
 	for (bit = 63; bit >= 0; bit--)
@@ -32,7 +35,5 @@ int get_bit(unsigned long int n, unsigned int index)
 			cadena[bit] = 0;
 
 	}
-
 	return (cadena[index]);
-
 }
