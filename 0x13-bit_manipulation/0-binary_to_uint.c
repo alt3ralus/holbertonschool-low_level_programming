@@ -1,54 +1,44 @@
 #include "holberton.h"
-#include <math.h>
+#include <stdio.h>
 /**
  * binary_to_uint - a function that converts a binary to unsigned.
  * @b: pointer to char.
  * Return: unsigned int. Number converted.
  */
-
-
-
-
-
 unsigned int _pow(unsigned int a, unsigned int b)
 {
-   unsigned int i, r = 1;
+	unsigned int i, r = 1;
 
-   for(i = 1; i <= b; ++i)
-       r *= a;
+	for (i = 1; i <= b; ++i)
+		r *= a;
+	for (i = 0; i > b;  --i)
+		r /= a;
 
-   for(i = 0; i > b;  --i)
-       r /= a;
-
-   return r;
+	return (0);
 }
-
-
 unsigned int binary_to_uint(const char *b)
 {
-	unsigned int count;
-	unsigned int sum = 0;
-        unsigned int var = 0;
-	unsigned int tmp = 0;
+	int len = 0;
 
-	if (( *b != '0' && *b != '1') || b == NULL)
+	while (b[len] != '\0')
 	{
-		return (0);
-	}
-	else
-	{
-		for (count = 0; b[count] != '\0'; count++)
+		if (b[len] != '0' &&  b[len] != '1')
 		{
-
-			var = (int) b[count];
-			var =  var - 48;
-			printf("%i", var);
-			tmp = _pow(2,count);
-
-			printf("temp = %u\n", tmp);
-			sum += var * tmp;
-
-		} printf("\n");
-		return (sum);
+			return (0);
+		}
+		len++;
 	}
+
+	unsigned int exp = 0;
+	unsigned int num = 0;
+	unsigned int sum = 0;
+
+	for (len = len - 1; len >= 0; len--)
+	{
+
+		num = (int)b[len] - 48;
+		sum = sum + num * _pow(2, exp);
+		exp++;
+	}
+	return (sum);
 }
