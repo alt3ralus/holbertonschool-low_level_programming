@@ -12,13 +12,14 @@ void print_binary(unsigned long int n)
 {
 	int bit, result, size = 0;
 
+
 	if (n == 0)
 	{
 		_putchar('0');
 		return;
 	}
 
-	for (bit = 31; bit >= 0; bit--)
+	for (bit = 63; bit >= 0; bit--)
 	{
 
 		result = n >> bit;
@@ -29,7 +30,7 @@ void print_binary(unsigned long int n)
 			bit = 0;
 	}
 
-	for (bit = 31 - size; bit >= 0; bit--)
+	for (bit = 63 - size; bit >= 0; bit--)
 	{
 		result = n >> bit;
 
