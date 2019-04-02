@@ -2,7 +2,7 @@
 /**
  * read_textfile - a fun. that reads a text file and prints i/o
  * @filename: pointer to the file.
- * @size_t: The size of the letter to print.
+ * @letters: The size of the letter to print.
  * Return: thr amount of chars to print.
  */
 ssize_t read_textfile(const char *filename, size_t letters)
