@@ -1,9 +1,9 @@
 #include "holberton.h"
 /**
- *
- *
- *
- *
+ * read_textfile - a fun. that reads a text file and prints i/o
+ * @filename: pointer to the file.
+ * @size_t: The size of the letter to print.
+ * Return: thr amount of chars to print.
  */
 ssize_t read_textfile(const char *filename, size_t letters)
 {
@@ -12,7 +12,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	int num_bytes;
 	char *buf;
 
-	if ( filename == NULL)
+	if (filename == NULL)
 		return (0);
 
 	buf = malloc(sizeof(char) * letters);
