@@ -16,15 +16,15 @@ int create_file(const char *filename, char *text_content)
 
 	file = open(filename, O_CREAT | O_WRONLY | O_TRUNC, 0600);
 
-	while (text_content[count] != '\0')
-	{
-		count++;
-	}
-
 	if (text_content == NULL)
 	{
 		close(file);
 		return (1);
+	}
+
+	while (text_content[count] != '\0')
+	{
+		count++;
 	}
 
 	esc = write(file, text_content, count);
