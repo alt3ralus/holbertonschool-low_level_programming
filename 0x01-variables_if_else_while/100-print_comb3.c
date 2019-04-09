@@ -27,7 +27,8 @@ int main(void)
 		}
 		y = x + 1;
 		x++;
-		putchar('\n');
 	}
+	putchar('\n');
+
 	return (0);
 }
