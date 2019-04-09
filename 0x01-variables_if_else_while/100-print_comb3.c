@@ -18,7 +18,7 @@ int main(void)
 			{
 				putchar(x);
 				putchar(y);
-				if (x < 56 )
+				if (x < 56)
 				{
 					putchar(',');
 					putchar(' ');
@@ -27,6 +27,7 @@ int main(void)
 		}
 		y = x + 1;
 		x++;
+		putchar('\n');
 	}
-	return(0);
+	return (0);
 }
