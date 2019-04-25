@@ -32,6 +32,7 @@ int jack_bauer(void)
 			}
 			countc = 48;
 		}
+		_putchar('\n');
 	}
 	return (0);
 }
