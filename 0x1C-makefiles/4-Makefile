@@ -4,3 +4,8 @@ OBJ =
 NAME = holberton
 CFLAGS = -Wall -Werror -Wextra -pedantic
 RM = rm -f
+all:
+clean:
+fclead:
+oclean:
+re:
